@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Canada</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Canada</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 768px)" srcset="images/hero-large.webp">
+                <img src="images/ottawa.jpg" alt="Beautiful landscape of Canada" width="600" height="400">
+            </picture>
+        </div>
+
+        <div class="content-grid">
+            <section class="data">
+                <h2>Data</h2>
+                <p><strong>Area:</strong> 9,984,670 sq km</p>
+                <p><strong>Population:</strong> 40,097,761</p>
+                <p><strong>Capital:</strong> Ottawa</p>
+                <p><strong>Languages:</strong> English, French</p>
+                <p><strong>Currency:</strong> Canadian Dollar (CAD)</p>
+            </section>
+
+            <section class="weather">
+                <h2 class="weather-heading">Weather</h2>
+                <img src="images/weather-icon.svg" alt="Weather icon" class="mobile-icon">
+                <p><strong>Temperature:</strong> <span id="temperature">5</span> °C</p>
+                <p><strong>Conditions:</strong> Cloudy</p>
+                <p><strong>Wind:</strong> <span id="windSpeed">15</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill"></span></p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Hai Dang Nguyen | WDD 131</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
