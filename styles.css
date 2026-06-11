@@ -69,3 +69,13 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #002255;
 }
+
+@media (min-width: 768px) {
+    main {
+        padding: 2rem;
+        max-width: 800px;
+    }
+    .checkbox-group {
+        gap: 1.5rem;
+    }
+}
