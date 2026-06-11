@@ -1,0 +1,74 @@
+/* --- Typography Setup --- */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    /* --- Color Schema: Cream Background & Dark Brown Text --- */
+    background-color: #F4EFE6;
+    color: #4A3B32;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    color: #4A3B32;
+}
+
+/* --- Layout & Styling --- */
+header {
+    /* --- Color Schema: Warm Orange Accent --- */
+    background-color: #D97A3B;
+    color: #F4EFE6;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1, header h2 {
+    color: #F4EFE6;
+    margin: 5px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    /* --- Color Schema: Warm Orange Accent Border --- */
+    border-bottom: 2px dashed #D97A3B;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+code {
+    background-color: #eee;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border: 1px solid #4A3B32;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #4A3B32;
+}
