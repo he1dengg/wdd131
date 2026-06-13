@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View the expansive portfolio of Apex Architecture.">
+    <meta name="author" content="WDD 131 Student">
+    <title>Apex Architecture | Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Apex Architecture</h1>
+        <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="gallery.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="page-title">Featured Projects</h2>
+        <div class="filters">
+            <button class="btn filter-btn" data-category="all">All Projects</button>
+            <button class="btn filter-btn" data-category="commercial">Commercial</button>
+            <button class="btn filter-btn" data-category="residential">Residential</button>
+            <button class="btn filter-btn" data-category="public">Public Spaces</button>
+        </div>
+        <section id="gallery-container" class="grid-layout"></section>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Apex Architecture</p>
+        <p>Last Modified: <span id="last-modified"></span></p>
+        <a href="references.html">References</a>
+    </footer>
+</body>
+</html>
